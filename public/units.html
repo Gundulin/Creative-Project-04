@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./units.css">
+        <title>BKT-Units</title>
+    </head>
+    <body>
+        <h1>Units</h1>
+        
+        <div id="unit">
+            <div v-if ="loading">
+                <h2>Loading...</h2>
+            </div>
+            <div id="unit_info" v-for="unit in units">
+                <img :src="unit.path" />
+                <h3>{{ unit.name }}</h3>
+                <!-- <ul>
+                    <li></li>
+                </ul> -->
+                <p>Faction: {{ unit.faction }} </br>
+                    Health: {{ unit.health }} </br>
+                    Movement: {{ unit.movement }} </br>
+                    Range: {{ unit.range}} </br> 
+                    Melee Max: {{ unit.melee_max }} </br>
+                    Range Max: {{ unit.range_max }} </br>
+                    Ability: {{ unit.ability }} </br> </p>
+            </div>
+        </div>
+
+        <footer>
+            <a href="">GitHub</a>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.7/vue.js" integrity="sha256-g+Q8DFAmG5+eyRPSydX0LY4TfjsL11XSDrIGerbbEdA=" crossorigin="anonymous"></script>     
+        <script src="./units.js"></script> 
+    </body>
+
+</html>

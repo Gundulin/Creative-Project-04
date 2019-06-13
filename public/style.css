@@ -1,0 +1,92 @@
+h1 {
+    text-align: center;
+    background-position-y: 10;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* padding: 1em; */
+    font-size: 64px;
+    color: ivory;
+    text-shadow: 3px 3px black;
+    word-spacing: .5em;
+    border: 5px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cs260-creative-project-04.appspot.com/o/IMG_1893.jpg?alt=media&token=43bf01fb-7006-4c5b-8521-2eeb9ea2b8f9");
+}
+
+h2 {
+    margin-top: .5em;
+    padding-left: 1em;
+    color: ivory;
+    text-shadow: 2px 2px black;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+body {
+    background-color: burlywood;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cs260-creative-project-04.appspot.com/o/IMG_1892.jpg?alt=media&token=d5e6fb31-cf02-449a-be7a-f34cf7e9688b");
+    /* background-attachment: fixed; */
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: 100%;
+    
+}
+
+#links {
+    text-align: center;
+    width: 100%;
+}
+
+#links a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 108px;
+    text-shadow: 3px 3px black;
+    width: 30%;
+    padding: .1em;
+    color: ivory;
+    background-position: left;
+    border: 5px solid black;
+    background-color: burlywood;
+    /* border: 5px solid rgb(200, 144, 95); */
+    background-size: 100%;
+    /* background-image: url("https://firebasestorage.googleapis.com/v0/b/cs260-creative-project-04.appspot.com/o/IMG_1892.jpg?alt=media&token=d5e6fb31-cf02-449a-be7a-f34cf7e9688b"); */
+}
+
+#links a:hover {
+    border-color: goldenrod;
+    color: goldenrod;
+}
+
+p {
+    text-align: center;
+    color: ivory;
+    font-size: 36px;
+}
+
+footer {
+    height: 3em;
+    text-align: center;
+    background-color: rgba(222, 184, 135, 0.5);
+    margin-bottom: 0;
+}
+
+footer a {
+    padding: 1em;
+    background-color: burlywood;
+    text-decoration: none;
+    color: ivory;
+}
+
+footer a:hover {
+    background-color: goldenrod;
+}
+
+#about {
+    background-color: rgba(222, 184, 135, 0.5);
+    text-shadow: 1px 1px black;
+}
+
+#space {
+    height: 50px;
+}

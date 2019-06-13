@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    padding: 1em;
+    font-size: 72px;
+    color: ivory;
+    text-shadow: 3px 3px black;
+    word-spacing: .5em;
+    border: 5px solid black;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cs260-creative-project-04.appspot.com/o/IMG_1893.jpg?alt=media&token=43bf01fb-7006-4c5b-8521-2eeb9ea2b8f9");
+}
+
+body {
+    background-color: burlywood;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cs260-creative-project-04.appspot.com/o/IMG_1892.jpg?alt=media&token=d5e6fb31-cf02-449a-be7a-f34cf7e9688b");
+    /* background-attachment: fixed; */
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: 100%;
+    
+}

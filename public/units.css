@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    background-position-y: 10;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* padding: 1em; */
+    font-size: 64px;
+    color: ivory;
+    text-shadow: 3px 3px black;
+    word-spacing: .5em;
+    border: 5px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cs260-creative-project-04.appspot.com/o/IMG_1893.jpg?alt=media&token=43bf01fb-7006-4c5b-8521-2eeb9ea2b8f9");
+}
+
+h2 {
+    font-size: 108px;
+    color: ivory;
+    text-shadow: 3px 3px black;
+    margin-left: 1em;
+}
+
+img {
+    width: 50%;
+    float: left;
+}
+
+body {
+    background-color: burlywood;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/cs260-creative-project-04.appspot.com/o/IMG_1892.jpg?alt=media&token=d5e6fb31-cf02-449a-be7a-f34cf7e9688b");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+#unit_info {
+    background-color: rgba(222, 184, 135, 0.5);
+    font-size: 24px;
+    color: ivory;
+    text-shadow: 1px 1px black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+footer {
+    height: 3em;
+    text-align: center;
+    background-color: rgba(222, 184, 135, 0.5);
+    margin-bottom: 0;
+}
+
+footer a {
+    padding: 1em;
+    background-color: burlywood;
+    text-decoration: none;
+    color: ivory;
+}
+
+footer a:hover {
+    background-color: goldenrod;
+}
