@@ -2,16 +2,40 @@
 
 <html>
     <head>
-        <link rel="stylesheet" href="./units.css">
+        <link rel="stylesheet" href="./rules.css">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <title>BKT-Rules</title>
     </head>
     <body>
         <h1>Rules</h1>
+        <div id="taskbar">
+            <a href="./index.html">HOME</a>
+            <a href="./units.html">UNITS</a>
+        </div>
+        <div id="rule">
+            <div v-if="loading">
+                <h2>Loading...</h2>
+            </div>
+            <div id="rule_info" v-for="rule in rules">
+                <h3>{{ rule.name }}</h3>
+                <div v-for="piece in rule.pieces">
+                    <p>{{ piece }}</p>
+                </div>
+            </br>
+                    
+            </div>
+
+        </div>
 
         <div></div>
 
         <footer>
             <a href="https://github.com/Gundulin/Creative-Project-04">GitHub</a>
         </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.7/vue.js" integrity="sha256-g+Q8DFAmG5+eyRPSydX0LY4TfjsL11XSDrIGerbbEdA=" crossorigin="anonymous"></script>     
+        <script src="./rules.js"></script> 
     </body>
 </html>

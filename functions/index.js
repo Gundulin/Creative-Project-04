@@ -10,6 +10,7 @@ const app = express();
 
 var db = firebase.firestore();
 var unitsRef = db.collection('units');
+var rulesRef = db.collection('rules');
 
 app.get('/api/units', async (req, res) => {
   try{
@@ -19,5 +20,14 @@ app.get('/api/units', async (req, res) => {
       res.sendStatus(500);
   }
 });
+
+app.get('/api/rules', async (req, res) => {
+    try{
+        let querySnapshot = await rulesRef.get();
+        res.send(querySnapshot.docs.map(doc => doc.data()));
+    } catch(err) {
+        res.sendStatus(500);
+    }
+  });
 
 exports.app = functions.https.onRequest(app);

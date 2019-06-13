@@ -1,12 +1,23 @@
 h1 {
     text-align: center;
-    padding: 1em;
-    font-size: 72px;
+    background-position-y: 10;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* padding: 1em; */
+    font-size: 64px;
     color: ivory;
     text-shadow: 3px 3px black;
     word-spacing: .5em;
     border: 5px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-image: url("https://firebasestorage.googleapis.com/v0/b/cs260-creative-project-04.appspot.com/o/IMG_1893.jpg?alt=media&token=43bf01fb-7006-4c5b-8521-2eeb9ea2b8f9");
+}
+
+h2 {
+    font-size: 108px;
+    color: ivory;
+    text-shadow: 3px 3px black;
+    margin-left: 1em;
 }
 
 body {
@@ -19,20 +30,58 @@ body {
     
 }
 
+#taskbar a {
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid black;
+    width: 40%;
+    background-color: burlywood;
+    color: ivory;
+    text-shadow: 1px 1px black;
+    font-size: 24px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#taskbar {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#taskbar a:hover {
+    border-color: goldenrod;
+    color: goldenrod;
+}
+
 footer {
     height: 3em;
     text-align: center;
-    background-color: rgba(222, 184, 135, 0.5);
+    background-color: rgba(222, 184, 135, 0.8);
     margin-bottom: 0;
 }
 
 footer a {
     padding: 1em;
-    background-color: burlywood;
+    background-color: goldenrod;
     text-decoration: none;
     color: ivory;
 }
 
 footer a:hover {
-    background-color: goldenrod;
+    color: brown;
+}
+
+#rule_info {
+    background-color: rgba(222, 184, 135, 0.7);
+    font-size: 24px;
+    color: ivory;
+    text-shadow: 1px 1px black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    line-height: 1em;
+    line-break: unset;
 }

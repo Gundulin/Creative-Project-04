@@ -59,7 +59,7 @@ body {
 }
 
 #unit_info {
-    background-color: rgba(222, 184, 135, 0.5);
+    background-color: rgba(222, 184, 135, 0.7);
     font-size: 24px;
     color: ivory;
     text-shadow: 1px 1px black;
@@ -71,17 +71,17 @@ body {
 footer {
     height: 3em;
     text-align: center;
-    background-color: rgba(222, 184, 135, 0.5);
+    background-color: rgba(222, 184, 135, 0.8);
     margin-bottom: 0;
 }
 
 footer a {
     padding: 1em;
-    background-color: burlywood;
+    background-color: goldenrod;
     text-decoration: none;
     color: ivory;
 }
 
 footer a:hover {
-    background-color: goldenrod;
+    color: brown;
 }
