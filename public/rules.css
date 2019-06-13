@@ -12,9 +12,27 @@ h1 {
 body {
     background-color: burlywood;
     background-image: url("https://firebasestorage.googleapis.com/v0/b/cs260-creative-project-04.appspot.com/o/IMG_1892.jpg?alt=media&token=d5e6fb31-cf02-449a-be7a-f34cf7e9688b");
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-size: 100%;
     
+}
+
+footer {
+    height: 3em;
+    text-align: center;
+    background-color: rgba(222, 184, 135, 0.5);
+    margin-bottom: 0;
+}
+
+footer a {
+    padding: 1em;
+    background-color: burlywood;
+    text-decoration: none;
+    color: ivory;
+}
+
+footer a:hover {
+    background-color: goldenrod;
 }

@@ -13,6 +13,31 @@ h1 {
     background-image: url("https://firebasestorage.googleapis.com/v0/b/cs260-creative-project-04.appspot.com/o/IMG_1893.jpg?alt=media&token=43bf01fb-7006-4c5b-8521-2eeb9ea2b8f9");
 }
 
+#taskbar a {
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid black;
+    width: 40%;
+    background-color: burlywood;
+    color: ivory;
+    text-shadow: 1px 1px black;
+    font-size: 24px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#taskbar {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#taskbar a:hover {
+    border-color: goldenrod;
+    color: goldenrod;
+}
+
 h2 {
     font-size: 108px;
     color: ivory;

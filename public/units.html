@@ -7,6 +7,10 @@
     </head>
     <body>
         <h1>Units</h1>
+        <div id="taskbar">
+            <a href="./index.html">HOME</a>
+            <a href="./rules.html">RULES</a>
+        </div>
         
         <div id="unit">
             <div v-if ="loading">
@@ -15,9 +19,6 @@
             <div id="unit_info" v-for="unit in units">
                 <img :src="unit.path" />
                 <h3>{{ unit.name }}</h3>
-                <!-- <ul>
-                    <li></li>
-                </ul> -->
                 <p>Faction: {{ unit.faction }} </br>
                     Health: {{ unit.health }} </br>
                     Movement: {{ unit.movement }} </br>
@@ -29,7 +30,7 @@
         </div>
 
         <footer>
-            <a href="">GitHub</a>
+            <a href="https://github.com/Gundulin/Creative-Project-04">GitHub</a>
         </footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
